@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_mirrored_all",
+  "textures": {
+    "all": "prison_escape:block/prison_wall"
+  }
+}

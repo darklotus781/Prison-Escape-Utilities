@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "prison_escape:block/prison_wall"
+      },
+      {
+        "model": "prison_escape:block/prison_wall_mirrored"
+      },
+      {
+        "model": "prison_escape:block/prison_wall",
+        "y": 180
+      },
+      {
+        "model": "prison_escape:block/prison_wall_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}
