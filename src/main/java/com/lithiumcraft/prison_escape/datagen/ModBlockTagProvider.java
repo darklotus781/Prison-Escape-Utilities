@@ -23,7 +23,9 @@ import com.lithiumcraft.prison_escape.registry.ModBlocks;
 import com.lithiumcraft.prison_escape.registry.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -91,5 +93,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.WOODEN_FENCES)
                 .add(ModBlocks.OAK_FENCE.get());
+
+        tag(ModTags.Blocks.UNBREAKABLE)
+                .addTag(ModTags.Blocks.RELOCATION_NOT_SUPPORTED)
+                .addOptional(ResourceLocation.fromNamespaceAndPath("ftbquests", "barrier"))
+                .addOptional(ResourceLocation.fromNamespaceAndPath("ftbquests", "stage_barrier"));
     }
 }

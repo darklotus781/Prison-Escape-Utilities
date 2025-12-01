@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#c:relocation_not_supported",
+    {
+      "id": "ftbquests:barrier",
+      "required": false
+    },
+    {
+      "id": "ftbquests:stage_barrier",
+      "required": false
+    }
+  ]
+}

@@ -36,7 +36,7 @@ public class ModTags {
         public static final TagKey<Block> SWAPPER_DENY = createTag("justdirethings","swapper_deny");
         public static final TagKey<Block> PARADOX_ABSORB_DENY = createTag("justdirethings","paradox_absorb_deny");
         public static final TagKey<Block> BG_DENY = createTag("buildinggadets2","deny");
-
+        public static final TagKey<Block> UNBREAKABLE = createTag("unbreakable");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(PrisonEscape.MOD_ID, name));
